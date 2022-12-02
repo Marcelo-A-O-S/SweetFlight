@@ -1,18 +1,19 @@
 import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 import Home from '../Pages/Home'
 import RegistrarA from '../Pages/RegistrarA'
 import RegistrarP from '../Pages/RegistrarP'
 import ConsultarA from '../Pages/ConsultarA';
 import ConsultarP from '../Pages/ConsultarP';
-
+import Config from './RotasTab'
 const Stack = createNativeStackNavigator();
+
 export default function(){
     
     return(
       <Stack.Navigator initialRouteName='Home' screenOptions={{navigationBarColor:'#c72f2f'}}>
-        <Stack.Screen name="Home" component={Home} options={{
+        <Stack.Screen name="Home" component={Config} options={{
           title:"Sweet Flight ",
           headerStyle: {
             backgroundColor: '#f4511e',
@@ -36,12 +37,13 @@ export default function(){
             backgroundColor: '#f4511e',
           },
           headerTintColor: '#fff',}}/>
-                  <Stack.Screen name="ConsultarP" component={ConsultarP} options={{
+        <Stack.Screen name="ConsultarP" component={ConsultarP} options={{
           title:"Consultar Passageiro",
           headerStyle: {
             backgroundColor: '#f4511e',
           },
           headerTintColor: '#fff',}}/>
       </Stack.Navigator>
+
     )
 }

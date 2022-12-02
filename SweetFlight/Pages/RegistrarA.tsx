@@ -7,18 +7,13 @@ import Aviao from '../Models/Aviao';
 
 export default function RegistrarA({route}:any){
     const Rotas = useRoute()
-   // const registro = new Registro();
     const { registro } = route.params;
-    
-
     const [numeracao, setNumeracao] = React.useState<string>()
     const [nomeComercial, setNomeComercial] = React.useState<string>()
     const [quantidadeAssentos, setQuantidadeAssentos] = React.useState<string>()
-    function CadastroNumero(e:any){
-       
+    function CadastroNumero(e:any){      
         setNumeracao(e)
     }
-
     function Cadastrar(){
         const aviao = new Aviao(parseInt(numeracao ,10), nomeComercial,parseInt(quantidadeAssentos, 10))
         registro.AdicionarRegistro(aviao)

@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
-import {Text, TextInput, View ,TouchableOpacity, FlatList, StyleSheet} from 'react-native'
+import {Text, TextInput, View ,TouchableOpacity, StyleSheet} from 'react-native'
 import { Picker } from '@react-native-picker/picker'
-
-
 import Passageiro from '../Models/Passageiro';
 
 export default function RegistarP({ route }:any){

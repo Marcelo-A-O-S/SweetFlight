@@ -7,10 +7,10 @@ export default function Home(){
     const navigation = useNavigation()
     return(
         <View style={estilos.page}>
-            <Text style={estilos.titulo}>Servicos</Text>
+            <Text style={estilos.titulo}>Serviços</Text>
                 <TouchableOpacity 
                     style={estilos.btn}
-                    onPress={()=> navigation.navigate("Registrar",{
+                    onPress={()=> navigation.navigate("RegistrarA",{
                         registro,
                     })}
                     >
@@ -40,7 +40,6 @@ export default function Home(){
                     >
                     <Text style={estilos.label}>Consultar Avião</Text>
                 </TouchableOpacity>
-                {/* <Button title='teste' onPress={()=>imprimir()}/> */}
         </View>
     )
 }

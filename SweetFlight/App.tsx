@@ -1,9 +1,8 @@
 import { StyleSheet } from 'react-native';
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Rotas from './Routes/rotas'
-const Stack = createNativeStackNavigator();
+import Rotas from './Routes/Rotas'
+import RotasTab from './Routes/RotasTab';
 
 export default function App() {
   return (

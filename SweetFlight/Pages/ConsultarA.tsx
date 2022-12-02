@@ -5,7 +5,6 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-nativ
 export default function ConsultarA({route}:any){
     const {registro} = route.params
     var armazenar;
-    var result;
     const [obterConsulta, setConsulta ] = useState();
     const [nomeA, setNomeA] = useState()
     function ListaEncontrada(){
