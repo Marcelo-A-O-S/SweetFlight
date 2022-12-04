@@ -12,6 +12,8 @@
       "channel":"preview"
     },
     "production": {
+      "credentialsSource":"remote",
+      "distribution":"store",
       "channel":"production"
     }
   },

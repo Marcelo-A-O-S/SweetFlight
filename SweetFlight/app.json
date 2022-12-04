@@ -9,10 +9,11 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "##d94717"
+      "backgroundColor": "#d94717"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/1a9a39f6-7824-4b5a-b4c2-327d3a1e0a79"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,8 +24,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "##d94717"
-      }
+        "backgroundColor": "#d94717"
+      },
+      "package": "com.marcelo_ao_soares.SweetFlight"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -33,6 +35,17 @@
       "eas": {
         "projectId": "1a9a39f6-7824-4b5a-b4c2-327d3a1e0a79"
       }
-    }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "sdkVersion":"47.0.0",
+    "platforms":[
+      "ios",
+      "android",
+      "web"
+    ],
+    "currentFullName":"@marcelo_ao_soares/SweetFlight",
+    "originalFullName":"@marcelo_ao_soares/SweetFlight"
   }
 }
