@@ -13,7 +13,7 @@
     },
     "production": {
       "credentialsSource":"remote",
-      "distribution":"store",
+      "distribution":"internal",
       "channel":"production"
     }
   },
