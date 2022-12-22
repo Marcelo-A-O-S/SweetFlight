@@ -1,5 +1,5 @@
 # SweetFlight
-Projeto relacionado a atividade do curso de desenvolvimento de sistemas, feito para aprendizado das ferramentas typescript e React-native!
+Projeto relacionado a atividade do curso de desenvolvimento de sistemas, feito para aprendizado das ferramentas typescript, React-native e expo!
 
 O projeto foi feito para assimilar conceitos de desenvolvimento mobile e de conceitos novos de linguagem usando o typescript!
 
